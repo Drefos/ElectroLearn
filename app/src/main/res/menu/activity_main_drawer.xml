@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/nav_dictionary"
+        android:icon="@android:drawable/ic_menu_sort_alphabetically"
+        android:title="@string/dictionary" />
+
+    <item android:title="@string/DC">
+        <menu>
+            <group>
+
+
+
+                <item
+                    android:id="@+id/nav_serial_connections_resistors"
+                    android:title="@string/serial_connections_resistors" />
+                <item
+                    android:id="@+id/nav_parallel_connections_resistors"
+                    android:title="@string/parallel_connections_resistors" />
+                <item
+                    android:id="@+id/nav_Kirchhoff_1"
+                    android:title="@string/kirchhoff_1" />
+                <item
+                    android:id="@+id/nav_Kirchhoff_2"
+                    android:title="@string/kirchhoff_2" />
+                <item
+                    android:id="@+id/nav_SEM"
+                    android:title="@string/SEM" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/AC">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_perfect_resistor"
+                    android:title="@string/perfect_resistor" />
+                <item
+                android:id="@+id/nav_perfect_coil"
+                android:title="@string/perfect_coil" />
+                <item
+                    android:id="@+id/nav_perfect_capacitor"
+                    android:title="@string/perfect_capacitor" />
+                <item
+                    android:id="@+id/nav_nullator"
+                    android:title="@string/nullator" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/info">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_about_app"
+                    android:icon="@android:drawable/ic_dialog_info"
+                    android:title="@string/about_app" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

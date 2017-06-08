@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">ElectroLearn</string>
+
+    <string name="hello_title">Witaj w aplikacji ElectroLearn!</string>
+    <string name="hello_message">Najlepszy zbiór informacji z dziedziny elektrotechniki w jednym miejscu.\nNie znajdziesz tu reklam, ani płatnej wersji \"Premium\".\nJeśli jednak będziesz mieć jakieś uwagi, proszę napisz do mnie na maila będącego w zakładce \'O aplikacji\'. \n\nGłówne menu możesz wysunąć z lewej strony ekranu.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="index">Spis tereści</string>
+    <string name="info">Informacje</string>
+    <string name="DC">Prąd stały</string>
+    <string name="AC">Prąd przemienny</string>
+
+    <!-- navigation bar -->
+    <string name="home">Strona główna</string>
+    <string name="dictionary">Słownik</string>
+    <string name="serial_connections_resistors">Łączenie szeregowe rezystorów</string>
+    <string name="parallel_connections_resistors">Łączenie równoległe rezystorów</string>
+    <string name="serial_connections_capacitors">Łączenie szeregowe kondensatorów</string>
+    <string name="parallel_connections_capacitors">Łączenie równoległe kondensatorów</string>
+    <string name="kirchhoff_1">I Prawo Kirchhoffa</string>
+    <string name="kirchhoff_2">II Prawo Kirchhoffa</string>
+    <string name="SEM">Siła elektromotoryczna (SEM)</string>
+    <string name="perfect_resistor">Idealny rezystor</string>
+    <string name="perfect_coil">Idealna cewka indukcyjna</string>
+    <string name="perfect_capacitor">Idealny kondensator</string>
+    <string name="nullator">Dwójniki RLC</string>
+    <string name="about_app">O aplikacji</string>
+
+    <!-- serial connections resistors -->
+    <string name="s_c_r_desc_1">Gdy kilka oporników ustawionych jest jeden za drugim to takie połączenie oporników nazywamy połączeniem szeregowym. Poniższy rysunek przedstawia prosty obwód elektryczny składający się z doskonałego źródła siły elektromotorycznej oraz rezystorów połączonych szeregowo, znajdujących się pomiędzy punktami A i B, między którymi źródło SEM utrzymuje stałą różnicę potencjałów ε.</string>
+    <string name="s_c_r_desc_2">Zgodnie z powyższym rysunkiem nośniki ładunku mogą poruszać się w obwodzie tylko jedną drogą (brak węzłów w obwodzie), dlatego też przez każdy opornik musi przepływać prąd o takim samym natężeniu równym I.</string>
+    <string name="s_c_r_desc_3">Różnica potencjałów U przyłożona do oporników połączonych szeregowo powoduje wytworzenie w nich prądu o jednakowym natężeniu I.</string>
+    <string name="s_c_r_desc_4">Oporniki połączone szeregowo możemy zastąpić przez opornik zastępczy o oporze Rz, przez który, przy tej samej różnicy potencjałów, przepływa prąd o takim samym natężeniu, jak przez każdy z oporników stanowiących część układu oporników połączonych szeregowo. Na poniższym rysunku przedstawiono obwód elektryczny, w którym trzy oporniki z poprzedniego rysunku, zastąpiono jednym równoważnym opornikiem o oporze Rz.</string>
+    <string name="s_c_r_desc_5">Aby wyprowadzić wyrażenie pozwalające obliczyć opór Rz opornika zastępczego (zastępującego oporniki połączone szeregowo) zastosujemy drugie prawo Kirchhoffa dla obydwu obwodów pokazanych na powyższych rysunkach. Zaczynając i kończąc analizę w punkcie A oraz poruszając się zgodnie z ruchem wskazówek zegara, dostaniemy dla pierwszego obwodu:</string>
+    <string name="s_c_r_desc_6">z kolei dla obwodu z opornikiem zastępczym Rz:</string>
+    <string name="s_c_r_desc_7">Ponieważ natężenie prądu I płynącego przez obydwa obwody przyjmuje jednakową wartość, dlatego też po przekształceniu powyższych wyrażeń względem prądu I i przyrównaniu ich stronami, otrzymamy:</string>
+    <string name="s_c_r_desc_8">Widzimy więc, że wzór na opór zastępczy dla trzech rezystorów połączonych szeregowo ma postać:</string>
+    <string name="s_c_r_desc_9">W ogólności w przypadku n rezystorów opór zastępczy możemy obliczyć stosując poniższe wyrażenie:</string>
+    <string name="s_c_r_desc_10">gdzie Ri to opór i-tego rezystora w obwodzie.</string>
+
+    <!-- parallel connections resistors -->
+    <string name="p_c_r_desc_1">Łączenie rezystorów w sposób równoległy czyli taki, w którym oporniki z jednej oraz z drugiej strony połączone są za pomocą wspólnych przewodów (są zawarte między dwoma tymi samymi węzłmi), do końców których przykładana jest różnica potencjałów U. Takie połączenie oporników powoduje, że na każdym z nich występuje takie samo napięcie o wartości U, które wytwarza na każdym rezystorze prąd o różnym natężeniu (w przypadku rezystorów o jednakowym oporze, prąd przepływający przez te rezystory będzie miał oczywiście taką samą wartość). Zauważ, że zgodnie z poniższym rysunkiem prąd ze źródła SEM może poruszać się kilkoma drogami (prąd dopływając do węzła ulega rozgałęzieniu).</string>
+    <string name="p_c_r_desc_2">Różnica potencjałów U przyłożona do oporników połączonych równolegle równa jest różnicy potencjałów na każdym z oporników z osobna.</string>
+    <string name="p_c_r_desc_3">Podobnie jak w przypadku rezystorów połączonych szeregowo, także i w przypadku układu oporników połączonych równolegle możemy zastąpić je za pomocą jednego równoważnego im opornika o oporze Rz, do końców którego przykładana jest taka sama różnica potencjałów U, powodująca powstanie prądu o natężeniu I równym sumie natężeń prądów wytworzonych we wszystkich opornikach połączonych równolegle.</string>
+    <string name="p_c_r_desc_4">Aby wyprowadzić wzór pozwalający obliczyć opór zastępczy Rz oporników połączonych równolegle skorzystamy z pierwszego prawa Kirchhoffa. Zapisanie tego prawa dla układu oporników połączonych równoległe da nam:</string>
+    <string name="p_c_r_desc_5">Natężenie prądu I1, I2 oraz I3 przepływającego, odpowiednio, przez opornik R1, R2 i R3 obliczymy korzystając z definicji oporu elektrycznego. Ponieważ jak napisaliśmy wcześniej różnica potencjałów źródła SEM o wartości ε przyłożona do układu oporników połączonych równolegle równa jest różnicy potencjałów na każdym z oporników z osobna, dlatego też:</string>
+    <string name="p_c_r_desc_6">Podstawiając każdy z prądów do równania I = I1 + I2 + I3 dostaniemy:</string>
+    <string name="p_c_r_desc_7">Podobne równanie otrzymamy dla obwodu z oporem zastępczym Rz:</string>
+    <string name="p_c_r_desc_8">Porównując dwa powyższe równania stronami uzyskamy:</string>
+    <string name="p_c_r_desc_9">Z powyższego wyrażenia wynika wzór pozwalający obliczyć opór zastępczy Rz dla trzech oporników połączonych równolegle:</string>
+    <string name="p_c_r_desc_10">W ogólności w przypadku n rezystorów opór zastępczy możemy obliczyć stosując poniższe wyrażenie:</string>
+
+    <!-- kirchhoff 1 -->
+    <string name="kirchhoff1_desc_1">Definicja: Suma natężeń prądów wpływających do dowolnego węzła w obwodzie elektrycznym równa się sumie natężeń prądów wypływających z tego węzła.</string>
+    <string name="kirchhoff1_desc_2">Aby pokazać w jaki sposób należy prawidłowo stosować pierwsze prawo Kirchhoffa posłużymy się prostym przykładem. Na poniższym rysunku przedstawiono obwód elektryczny składający się z doskonałego źródła siły elektromotorycznej oraz dwóch rezystorów o oporach R1 i R2.</string>
+    <string name="kirchhoff1_desc_3">Prąd o natężeniu I pochodzący ze źródła SEM ma jednakową wartość w lewej gałęzi (BAD), prąd o natężeniu I1 - w środkowej gałęzi (BD), z kolei prąd I2 - w gałęzi prawej (BCD). Skupmy na chwilę uwagę na węźle B: ładunek elektryczny wpływa do tego węzła ze źródła SEM wraz z prądem o natężeniu I, a wypływa z prądami I1 oraz I2, przepływającymi odpowiednio przez opornik R1 i R2. Całkowity ładunek w węźle B nie ulega zmianie, zatem zgodnie z pierwszym prawem Kirchhoffa suma natężeń prądów wpływających do tego węzła musi być równa sumie prądów wypływających z tego węzła, co możemy zapisać jako:</string>
+    <string name="kirchhoff1_desc_4">Dokładnie takie samo wyrażenie, jak powyższe dla węzła B, dostaniemy dla węzła D. Do węzła D wpływają prądy o natężeniach I1 i I2, a wypływa prąd o natężeniu I będący sumą tych dwóch prądów:</string>
+    <string name="kirchhoff1_desc_5">Pierwsze prawo Kirchhoffa to prawo wynikające z zasady zachowania ładunku, zgodnie z którym w izolowanym układzie - w naszym przypadku w obwodzie elektrycznym - całkowity ładunek nie ulega zmianie (pozostaje stały).</string>
+
+    <!-- kirchhoff 2 -->
+    <string name="kirchhoff2_desc_1">Definicja: Algebraiczna suma zmian potencjałów w zamkniętym obwodzie elektrycznym równa się zero.</string>
+    <string name="kirchhoff2_desc_2">Drugie prawo Kirchhoffa to prawo wynikające z zasady zachowania energii, zgodnie z którą w układzie izolowanym, czyli w układzie na który nie działają żadne siły zewnętrzne, całkowita energia nie ulega zmianie. Patrząc na rysunek poniżej, możemy stwierdzić, że energia elektryczna wytwarzana przez doskonałe źródło siły elektromotorycznej ulega zamianie na energię termiczną rezystora o oporze R1 i R2 (zakładamy, że przewody mają zerową rezystancję). Całkowita energia tego układu nie ulega jednak zmianie, zatem w obwodzie tym spełniona jest zasada zachowania energii.</string>
+
+    <!-- SEM -->
+    <string name="sem_desc_1">Siła elektromotoryczna(SEM) ε to praca W przypadająca na jednostkowy ładunek q, jaką wykonuje źródło, przenosząc ładunek pomiędzy swoimi biegunami w kierunku przeciwnym do sił pola elektrycznego działających na ten ładunek.</string>
+    <string name="sem_desc_2">Na poniższym rysunku przedstawiono prosty obwód elektryczny składający się z doskonałego źródła siły elektromotorycznej oraz rezystora o oporze R.</string>
+    <string name="sem_desc_3">Doskonałe źródło SEM to źródło charakteryzujące się brakiem oporu wewnętrznego, co oznacza, że całkowita energia takiego źródła przekazywana jest nośnikom ładunku przy przemieszczaniu ich pomiędzy biegunami źródła. Ze względu na ten fakt, różnica potencjałów U pomiędzy biegunami doskonałego źródła SEM równa się jego sile elektromotorycznej ε :\n\nU = ε</string>
+    <string name="sem_desc_4">Rzeczywiste źródło SEM to źródło, którego opór wewnętrzny rw różni się od zera (na opór wewnętrzny rzeczywistego źródła SEM składa się opór elektryczny wszystkich elementów wchodzących w jego skład).</string>
+    <string name="sem_desc_5">Oznacza to, że całkowita energia takiego źródła przekazywana jest częściowo nośnikom ładunku oraz częściowo zamieniana jest na wewnętrzną energię termiczną źródła. Gdy obwód elektryczny nie jest podłączony do rzeczywistego źródła SEM (prąd nie przepływa przez obwód), wówczas różnica potencjałów pomiędzy biegunami źródła równa jest jego sile elektromotorycznej. W przeciwnym wypadku, tzn. gdy obwód podłączony jest do źródła, różnica potencjałów między biegunami różni się od SEM źródła o wielkość I*rw związaną ze spadkiem napięcia na źródle (konsekwencja oporu wewnętrznego):</string>
+
+    <!-- perfect resistor -->
+    <string name="perfect_resistor_1">Idealny rezystor to taki, który posiada stałą rezystancję przy przepływie prądu elektrycznego i nie zamienia energii elektrycznej w ciepło. Nie wytwarza on pola magnetycznego, ani pola elektrycznego (R=const, C=0, L=0).</string>
+    <string name="perfect_resistor_2">Na rezystorze idealnym prąd i napięcie są w fazie.</string>
+    <string name="perfect_resistor_3">Prawo Ohma jest spełnione dla wartości amplitud (wartości maksymalnych) oraz wartości skutecznych:</string>
+
+    <!-- perfect coil -->
+    <string name="perfect_coil_1">Idealna cewka charakteryzuje się stałą indukcyjnością (L=const), przy przepływie prądu wytwarzane jest w niej pole magnetyczne, nie występują straty energii na ciepło (R=0) oraz nie jest wytwarzane pole elektryczne (C=0).</string>
+    <string name="prefect_coil_2">Jeżeli przyjmiemy, że faza początkowa prądu wynosi 0° to prąd opisany jest wzorem:</string>
+    <string name="perfect_coil_3">wtedy napięcie wyprzedza prąd o kąt 90° i ma postać:</string>
+    <string name="perfect_coil_4">A tak wygląda wykres prądowo-napięciowy.</string>
+    <string name="perfect_coil_5">Wielkością, która charakteryzuje oporność cewki jest reaktancja indukcyjna (opór bierny indukcyjny) dana wzorem: </string>
+    <string name="perfect_coil_6">Dla częstotliwości 0Hz w obwodzie z cewką następuje stan zwarcia. A gdy częstotliwość rośnie do nieskończoności pojawia się stan jałowy.</string>
+    <string name="perfect_coil_7">Dla idealnej cewki prawo Ohma jest spełnione dla wartości amplitud (wartości maksymalnych) oraz wartości skutecznych:</string>
+
+    <!-- perfect capacitor -->
+    <string name="perfect_capacitor_1">Idealny kondensator charakteryzuje się stałą pojemnością elektryczną (C=const). Przy przepływie prądu powstaje pole elektryczne, nie występują straty energii na ciepło (R=0) oraz nie jest wytwarzane pole magnetyczne(L=0).</string>
+    <string name="perfect_capacitor_2">Na kondensatorze prąd wyprzedza napięcie o kąt 90°</string>
+    <string name="perfect_capacitor_3">Wielkością, która charakteryzuje oporność kondensatora idealnego jest reaktancja pojemnościowa (opór bierny pojemnościowy) dana wzorem:</string>
+    <string name="perfect_capacitor_4">Ponieważ reaktancja pojemnościowa jest odwrotnie proporcjonalna do częstotliwości, to w obwodach z kondensatorem dla częstotliwości równej zero występuje stan jałowy, a gdy częstotliwość rośnie do nieskończoności powstaje stan zwarcia.\nPrawo Ohma jest spełnione dla wartości amplitud (wartości maksymalnych) oraz wartości skutecznych:</string>
+
+    <!-- about app -->
+    <string name="about_app_desc">Aplikacja została stworzona w ramach projektu MAZOVIA 2016/2017</string>
+    <string name="desc">ElectroLearn to zbiór wiedzy dotyczącej elektrotechniki. Aplikacja zawiera: słownik terminów z wyjaśnieniami i wzorami, szersze omówienia bardziej złożonych terminów z zakresu prądu stałego i przemiennego.</string>
+    <string name="contact">Masz jakieś uwagi, czy pytania odnośnie aplikacji?\nNapisz do mnie klikając ikonę na dole ekranu.</string>
+</resources>
