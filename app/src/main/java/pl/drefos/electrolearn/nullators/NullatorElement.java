@@ -5,6 +5,7 @@ public class NullatorElement {
     private String desc1;
     private String desc2;
     private String desc3;
+    private String desc4;
     private int img1;
     private int img2;
     private int img3;
@@ -22,6 +23,9 @@ public class NullatorElement {
 
     public String getDesc3() {return desc3;}
     public void setDesc3(String desc3) {this.desc3 = desc3;}
+
+    public String getDesc4() {return desc4;}
+    public void setDesc4(String desc4) {this.desc4 = desc4;}
 
     public int getImg1() {return img1;}
     public void setImg1(int img1) {this.img1 = img1;}
@@ -44,6 +48,11 @@ public class NullatorElement {
         setImg3(img3);
         setImg4(img4);
         setDesc3(desc3);
+    }
+
+    public NullatorElement (String name, int img1, String desc1, int img2, String desc2, int img3, String desc3, int img4, String desc4) {
+        this(name, img1, desc1, img2, desc2, img3, desc3, img4);
+        setDesc4(desc4);
     }
 
 }

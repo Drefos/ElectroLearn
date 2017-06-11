@@ -255,6 +255,10 @@ public class MainActivity extends AppCompatActivity implements
             ImageView image = (ImageView) findViewById(R.id.nullator_img_4);
             image.setImageResource(element.getImg4());
         }
+        if(element.getDesc4()!=null) {
+            TextView text = (TextView) findViewById(R.id.nullator_desc_4);
+            text.setText(element.getDesc4());
+        }
     }
 
     // speed menu
